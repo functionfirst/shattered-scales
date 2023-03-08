@@ -2,7 +2,7 @@
   "id": "shattered-scales",
   "name": "shattered-scales",
   "title": "Shattered Scales",
-  "description": "World specific content for Shattered Scales",
+  "description": "World specific content for Shattered Scales. Includes custom Subclasses, Races,  Magic Items, Spells and Feats",
   "authors": [
     {
       "name": "functionfirst",
@@ -10,10 +10,10 @@
     }
   ],
   "flags": {},
-  "version": "1.0.0",
+  "version": "0.1.0",
   "compatibility": {
-    "minimum": "0.7.9",
-    "verified": "0.8.3"
+    "minimum": "10",
+    "verified": "10"
   },
   "scripts": [],
   "esmodules": [
@@ -94,10 +94,8 @@
     ]
   },
   "socket": false,
-  "url": "This is auto replaced",
-  "manifest": "https://gitlab.com/functionfirst/shattered-scales/-/raw/main/module.json",
-  "download": "https://gitlab.com/functionfirst/shattered-scales/-/raw/main/shattered-scales-module.zip",
-  "protected": false,
-  "coreTranslation": false,
+  "url": "https://shatteredscales.co.uk/",
+  "manifest": "https://raw.githubusercontent.com/functionfirst/shattered-scales/main/module.json",
+  "download": "https://github.com/functionfirst/shattered-scales/archive/refs/heads/main.zip",
   "library": false
 }
