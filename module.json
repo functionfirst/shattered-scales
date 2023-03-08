@@ -1,0 +1,103 @@
+{
+  "id": "shattered-scales",
+  "name": "shattered-scales",
+  "title": "Shattered Scales",
+  "description": "World specific content for Shattered Scales",
+  "authors": [
+    {
+      "name": "functionfirst",
+      "url": "https://github.com/functionfirst"
+    }
+  ],
+  "flags": {},
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "0.7.9",
+    "verified": "0.8.3"
+  },
+  "scripts": [],
+  "esmodules": [
+    "/scripts/module.js"
+  ],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "items",
+      "label": "Items",
+      "system": "dnd5e",
+      "path": "packs/items.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "system": "dnd5e",
+      "path": "packs/spells.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "system": "dnd5e",
+      "path": "packs/feats.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "system": "dnd5e",
+      "path": "packs/classes.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "class-features",
+      "label": "Class Features",
+      "system": "dnd5e",
+      "path": "packs/class-features.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "races",
+      "label": "Races",
+      "system": "dnd5e",
+      "path": "packs/races.db",
+      "type": "Item",
+      "private": false
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "minimum": "2.0.3",
+          "verified": "2.0.3"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "custom-classes",
+        "type": "module",
+        "compatibility": {
+          "minimum": "0.1.1"
+        }
+      }
+    ]
+  },
+  "socket": false,
+  "url": "This is auto replaced",
+  "manifest": "https://gitlab.com/functionfirst/shattered-scales/-/raw/main/module.json",
+  "download": "https://gitlab.com/functionfirst/shattered-scales/-/raw/main/shattered-scales-module.zip",
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
+}
